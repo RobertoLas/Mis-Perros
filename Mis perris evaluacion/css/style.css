@@ -1,0 +1,248 @@
+@import url("'https://fonts.googleaps.com/css?family=Open+Sans%7CRaleway%7CMuli%7CKanit%27");
+
+
+
+
+
+
+*{
+margin:0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Open sans'
+}
+
+
+
+header{
+    background-color: #85D4B7;
+    text-align: center;
+    margin-left: 4px;    
+}
+.la{
+    flex-basis: 50%;
+}
+main{
+    background:  #6dccaa;
+    text-align: center
+    
+}
+.carousel{
+    background: #2f4357;
+    margin-top: 2px;
+}
+.carousel .item{
+    min-height: 270px; /* Prevent carousel from being distorted if for some reason image doesn't load */
+}
+.carousel .item img{
+    margin: 0 auto; /* Align slide image horizontally center */
+}
+
+#tercer-perro{
+    width: 100%;
+    height: 100%
+}
+
+#logo{
+    height: 8vh
+}
+
+
+.Encabe{
+    font-size: 2vh;
+    padding: 3vh; 
+    
+}
+
+.Encabe a{
+    text-decoration: none;
+    color: white;
+    font-size: 2vh;
+    flex-basis: 100%;
+    padding: 4vh;
+}
+footer{
+    background:  #6dccaa;
+    font-size: 2vh;
+    align-items: center;
+    text-align: center;
+    align-content: space-between;
+}
+#numero{
+    margin-right: 33vh;
+}
+footer div{
+    padding: 5vh;
+    color: white;
+}
+.redes{
+    margin-top: 2vh;
+    font-size: 4vh
+}
+article{
+    margin-top: 4vh;
+}
+
+article h1{
+    font-size: 4vh;
+    font-family: 'Open sans';
+}
+article h2{
+    font-size: 2.5vh;
+    color: gray
+}
+article  h3{
+    margin-top: 2vh;
+    font-size: 2.2vh;
+    color: gray;
+}
+.resca{
+    margin-top: 2vh;
+    text-align: right;
+    margin-left: 0vh;
+}
+.crow{
+    margin-top: 2vh;
+    margin-left: 0vh;
+}
+#img-rescate{
+    margin-top: 4vh;
+    width: 40vh; 
+}
+#img-crow{
+    width: 40vh;
+}
+#boton{
+    background: #ffffff;
+    color: rgb(0, 0, 0);
+    border: solid 0.27vh rgb(0, 0, 0);
+    margin: 1vh;
+    padding: 1.2vh 1.2vh;
+    font-size: 80%;
+    font-family: 'Open Sans';
+    text-decoration: none;
+    margin-top: 2vh;
+}
+.texto{
+    background: rgb(207, 207, 207);
+
+
+}
+#final{
+    background: rgb(207, 207, 207);
+    padding:5vh;
+    text-align: left;
+}
+#final p{
+    margin-top: -4vh;
+    color: gray;
+}
+
+@media screen and (max-width:600px){
+    header{
+    padding:5px;
+    width: inherit;
+    height: auto;
+    background-color: #85D4B7;
+    max-width: inherit;
+    justify-content: center;
+    text-align: center;
+
+    }
+    #logo{
+        background: #85D4B7;
+       
+    
+    }
+    .Encabe{
+        text-align: center;
+        background: #6dccaa;
+        padding: 3vh;
+        margin:0.4%;
+        max-width: inherit;
+
+    }    
+    main{
+        margin-top: 0;
+        background: #6dccaa;
+    }
+    #perro{
+        padding: 1vh;
+        background: #6dccaa;
+        max-width: inherit;   
+        
+
+        
+    }
+    footer{
+        margin-top: 0;
+        background: #6dccaa;
+        text-align: center;
+    }
+    .fot{
+        display: none;        
+    }
+    .redes{
+
+        padding:3vh;
+        font-size: 5vh;
+        
+    }
+    article h1{
+        font-size: 3vh;
+        font-family: 'Open sans'
+    }
+    article h2{
+        font-size: 2vh;
+        color: gray
+    }
+    article  h3{
+        margin-top: 2VH;
+        font-size: 1.5vh;
+        color: gray;
+
+    }
+    .resca{
+        margin-top: 2vh;
+        text-align: right;
+        margin-left: -1.3vh;
+    }
+    .crow{
+        margin-top: 2vh;
+        margin-left: 1.6vh;
+    }
+    #img-rescate{
+        width: 30vh; 
+    }
+    #img-crow{
+        width: 30vh;
+    }
+    #boton{
+        background: #ffffff;
+        color: rgb(0, 0, 0);
+        border: solid 0.27vh rgb(0, 0, 0);
+        margin: 1vh;
+        padding: 1.2vh 1.2vh;
+        font-size: 80%;
+        font-family: 'Open Sans';
+        text-decoration: none;
+        margin-top: 4vh;
+    }
+    #final p{
+        margin-top: -4vh;
+        color: gray;
+        font-size: 3vh
+    }
+
+
+
+
+}
+
+label.error {
+    color: red;
+    width: 300px;
+    font-size: 0.8em;
+    margin-top: -5px;
+    margin-bottom: 10px;
+  }
